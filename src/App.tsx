@@ -1,14 +1,16 @@
-import React from "react";
-import "./App.css";
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+import React from 'react'
+import './App.css'
 
-function App() {
-    return (
+function App () {
+  return (
         <div className="App">
             <header className="App-header">
-                hello world!
+                {/* eslint-disable-next-line react/react-in-jsx-scope */}
+                <p>hello world!</p>
             </header>
         </div>
-    );
+  )
 }
 
-export default App;
+export default App
