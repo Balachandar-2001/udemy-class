@@ -7,7 +7,7 @@ function App () {
         <div className="App">
             <header className="App-header">
                 {/* eslint-disable-next-line react/react-in-jsx-scope */}
-                <p>hello world!</p>
+                <p>hello world SASS initialized!</p>
             </header>
         </div>
   )
